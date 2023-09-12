@@ -6,7 +6,8 @@ Created on Sun Jan 16 16:17:05 2022
 """
 from sum_threshold import sum_threshold
 from my_slice import my_slice
-
+from with_factors import with_factors
+from pairs_factors import pairs_factors
 lst = [7, 2, 12, 9, 15, 4, 11, 5]
 print('The sum of the elemenst, left to right, without exceeding the')
 print('threshold 40 is ', sum_threshold(40, *lst))
